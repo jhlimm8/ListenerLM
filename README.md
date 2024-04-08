@@ -41,6 +41,8 @@ so we don't recommend using them for now.
 
 ## Fine-tuning 
 
+tested on a 3090 so 24GB VRAM minimum
+
 Create your data using 
 
 ```
