@@ -1,5 +1,5 @@
 # Introduction
-A repo for fine-tuning LLMs with personalised listening styles and inferencing them.
+A repo for fine-tuning and inferencing LLMs with personalised listening styles.
 # Usage Instructions
 
 ## Inference
