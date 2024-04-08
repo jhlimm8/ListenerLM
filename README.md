@@ -24,7 +24,7 @@ MAX_JOBS=4 pip install flash-attn --no-build-isolation
 then run
 
 ```
-infer_unmerged.py --hf_key 'huggingface token'
+python infer_unmerged.py --hf_key 'huggingface token'
 ```
 
 where 'huggingface token' is your huggingface_token that has llama 2 access.
@@ -46,13 +46,13 @@ tested on a 3090 so 24GB VRAM minimum
 Create your data using 
 
 ```
-convrole/convrole.py
+python convrole/convrole.py
 ```
 
 , then combine your created data using
 
 ```
-convrole/convcombiner.py
+python convrole/convcombiner.py
 ```
 
 , then replace the data_files parameter and huggingface_token variable in the 2nd and 4th cells of 
