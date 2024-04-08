@@ -6,7 +6,7 @@ import argparse
 path_parser = argparse.ArgumentParser(description='parser for args')
 
 path_parser.add_argument('--base_model_path', '-m', help='Path to the base model, defaults to Llama 2 7B-Instruct', required=False, default="meta-llama/Llama-2-7b-chat-hf") 
-path_parser.add_argument('--adapter_path', '-p', help='Path to the trained adapters, defaults to the original trained adapters', required=False, default="jhlim8/listenerckpt20_19mar")
+path_parser.add_argument('--adapter_path', '-p', help='Path to the trained adapters, defaults to the original trained adapters', required=False, default="jhlim8/ListenerLM")
 path_parser.add_argument('--device', '-d', help='Which device to do inference on, defaults to cuda:0', required=False, default="cuda:0")
 path_parser.add_argument('--hf_key', '-hf', help='Huggingface key to access the models', required=True)
 
