@@ -30,7 +30,7 @@ where 'huggingface token' is your huggingface_token that has llama 2 access.
 Quantized and merged versions made from 
 
 ```
-mrege_and_quantized
+mrege_and_quantize_beta
 ```
 
 are technically available, but they perform significantly worse due to a bug making the merged model perform worse than the unmerged model
@@ -48,7 +48,7 @@ convrole/convrole.py
 , then combine your created data using
 
 ```
-convcombiner.py
+convrole/convcombiner.py
 ```
 
 , then replace the data_files parameter and huggingface_token variable in the 2nd and 4th cells of 
