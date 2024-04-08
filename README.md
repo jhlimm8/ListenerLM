@@ -1,5 +1,9 @@
 # Introduction
 A repo for fine-tuning and inferencing LLMs with personalised listening styles.
+
+An example convo using infer_unmerged.py (black is an irrelevant code warning)
+![image](https://github.com/jhlimm8/ListenerLM/assets/103594440/f24ba5ec-bd91-4717-a2b9-ea71ab41e916)
+
 # Usage Instructions
 
 ## Inference
