@@ -4,7 +4,7 @@ A repo for fine-tuning and inferencing LLMs with personalised listening styles.
 ROUGE F1 and BLEU precision scores comparing the base Llama 2-Chat 7B model against our fine-tuned version
 ![image](https://github.com/jhlimm8/ListenerLM/assets/103594440/786458cf-0392-489a-b4f1-0fcb093e1c43)
 
-An example convo using infer_unmerged.py (black is an irrelevant code warning)
+An example convo using infer_unmerged.py to do inference on our fine-tuned model (black is an irrelevant code warning)
 ![image](https://github.com/jhlimm8/ListenerLM/assets/103594440/f24ba5ec-bd91-4717-a2b9-ea71ab41e916)
 
 # Usage Instructions
